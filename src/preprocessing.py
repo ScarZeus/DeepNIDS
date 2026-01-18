@@ -27,4 +27,5 @@ def preprocessing(df):
     ]
     
     df.drop(columns= DROP_COLS, inplace=True, errors= "ignore")
+    print(str(df.columns))
     return df
